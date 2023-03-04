@@ -18,7 +18,7 @@ nav a{
     padding:10px;
 }
 
-h1,h2,h3,p{
+h1{
     font-family: "Tilt Warp", cursive;
 
 }
@@ -44,8 +44,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
-
-figcaption{
-    text-align: center;
-    padding-top: 10px;
+p{
+    font-family: 'Tilt Warp', cursive;
+    font-weight: regular;
 }
