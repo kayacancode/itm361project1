@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Google Map</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script async src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Quattrocento+Sans&display=swap" rel="stylesheet">
+  </head>
+<body id="mapbody">
+  <header>
+    <nav id="nav-bar3">
+      <div id="nav-contain">
+        <ul>
+          <li><a href="/project3/index">Resume</a></li>
+          <li><a href="/project3/ryboure">Ryboure</a></li>
+          <li><a href="/project3/dndnahran">Nahran Umbra</a></li>
+          <li id="onpage1"><a href="#">Google Map</a></li>
+        </ul>
+      </div>
+  </nav>
+  </header>
+  <div id = "content">
+    <h1>MAP!</h1>
+    <div id="map"></div>
+    <h2>Click on bullet point to change the map!</h2>
+      <ul>
+        <li><a onclick="ultraZoom()">Spy View (zoom in) </a></li>
+        <li><a onclick="goToSevern()">Go To Severn River, MD</a></li>
+        <li><a onclick="goToOcean()">Visit Ocean City, MD</a></li>
+      </ul>
+  </div>
+  <footer id="nahranfoot">
+   <p>Created by Zealous Godwin.</p>
+  <address>
+    <p><a href="mailto:agodwin1@hawk.iit.edu">agodwin1@hawk.iit.edu</a></p>
+  </address>
+  </footer>
+</body>
+</html>

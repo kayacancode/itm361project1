@@ -64,14 +64,6 @@ figcaption {
   float: inline-start;
 }
 
-@media (max-width:600px) {
-  h1,
-h2,
-h3,
-p {
-  font-family: "Tilt Warp", cursive;
-  font-size: 100px;
-  
-}
+@media screen {
   
 }
