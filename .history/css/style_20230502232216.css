@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
 
-html{
-  background-color: #9e8ef0;
-}
-
 body {
   background-color: #9e8ef0;
 }
@@ -15,9 +11,7 @@ nav {
   list-style: none;
   margin: 0;
   padding: 0;
-  float:center;
   text-align: center;
-  text-decoration: none;
 }
 nav li {
   display: inline;
@@ -25,14 +19,13 @@ nav li {
 nav a {
   display: inline-block;
   padding: 10px;
-  text-decoration: none;
+  list-style-type: none;
 }
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   position: relative;
-  text-decoration: none;
 }
 h1,
 h2,
@@ -40,6 +33,7 @@ h3,
 p {
   font-family: "Tilt Warp", cursive;
   font-size: 20px;
+  
 }
 
 h2 {
@@ -55,10 +49,6 @@ h2 {
   max-width: 50%;
   height: 350px;
   border-radius: 20px;
-}
-
-.websites h1{
-  float:center;
 }
 
 .trips img {
@@ -78,7 +68,7 @@ figcaption {
  * Always set the map height explicitly to define the size of the div element
  * that contains the map. 
  */
-#map {
+ #map {
   height: 100%;
 }
 
@@ -92,12 +82,14 @@ body {
   padding: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width:600px) {
   h1,
-  h2,
-  h3,
-  p {
-    font-family: "Tilt Warp", cursive;
-    font-size: 100px;
-  }
+h2,
+h3,
+p {
+  font-family: "Tilt Warp", cursive;
+  font-size: 100px;
+  
+}
+  
 }

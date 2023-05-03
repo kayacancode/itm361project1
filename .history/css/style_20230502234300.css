@@ -15,7 +15,6 @@ nav {
   list-style: none;
   margin: 0;
   padding: 0;
-  float:center;
   text-align: center;
   text-decoration: none;
 }
@@ -55,10 +54,6 @@ h2 {
   max-width: 50%;
   height: 350px;
   border-radius: 20px;
-}
-
-.websites h1{
-  float:center;
 }
 
 .trips img {
